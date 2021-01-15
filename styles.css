@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+    font-family: "Didact Gothic", "sans serif";
+}
+
+@media not print {
+    #body {
+        background-color: white;
+        margin: auto;
+        width: 210mm;
+        /* height: 296mm; */
+        border-radius: 9pt;
+        box-shadow: 0 5px 5px #333333;
+    }
+
+    #content {
+        padding: 0.5in
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.spreadbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fullname {
+    font-size: 3em;
+}
